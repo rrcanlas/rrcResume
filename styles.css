@@ -10,6 +10,8 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 .light-grey,.hover-light-grey:hover,.light-gray,/* light gray light grey */
 .hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
 
+.gray,.hover-gray:hover{color:#000!important;background-color:#71737D!important}
+
 .content{max-width:980px;margin:auto}rest{overflow:hidden}
 
 .margin{margin:16px!important}
@@ -51,12 +53,16 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 
 .text-black,.hover-text-black:hover{color:#000!important}
 
+.text-white,.hover-text-white:hover{color:#fff!important}
+
 .tiny{font-size:10px!important}.small{font-size:12px!important} /*large small*/
 
 .medium{font-size:15px!important}.large{font-size:18px!important}
 
 .teal,.hover-teal:hover{color:#fff!important;background-color:#009688!important}
-.pink,.hover-pink:hover{color:#fff!important;background-color:#2ea3f2!important}
+.pink,.hover-pink:hover{color:#000000!important;background-color:#3578E5!important}
+
+.black,.hover-black:hover{color:#000000!important;background-color:#000000!important}
 
 .margin-left{margin-left:16px!important}.margin-right{margin-right:16px!important} /*margin-right*/
 
@@ -136,9 +142,10 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 
 .text-red,.hover-text-red:hover {
 	color:#FF0000 !important;
+
 }
 
-/* unvisited link */
+/* unvisited link cursor: pointer;*/
 a:link {
   color: white;
   text-decoration: none!important;
@@ -167,6 +174,8 @@ a:active {
 .text-light-blue,.hover-text-light-blue:hover{color:#87CEEB!important}
 
 .round-xlarge{border-radius:16px}
+
+.square-xlarge{border-radius:1px}
 
 .small{font-size:12px!important}
 
